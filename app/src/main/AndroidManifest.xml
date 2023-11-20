@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DoctorInformation"
+        tools:targetApi="34">
+        <activity
+            android:name=".DentalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HospitalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DisDentalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DisSkinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DisOthersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DisOrthoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DisNeckActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DisMedicineActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DisLiverActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DisHearActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DisEyeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DisChildActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DisBrainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DisGyneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ByDiseaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
